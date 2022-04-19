@@ -258,6 +258,37 @@
         margin: 0 auto;
     }
 }
+/* Reviews */
+.reviews-section .item-inner {
+    height: 100%;
+    position: relative
+}
+
+.reviews-section .icon-holder {
+    position: absolute;
+    left: 50%;
+    top: -18px;
+    margin-left: -18px;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 6px
+}
+
+.reviews-section .source-profile {
+    width: 60px
+}
+
+.reviews-section .source-info {
+    font-size: 0.875rem
+}
+
+.reviews-section .quote {
+    font-style: italic
+}
 /*-------------------------FOOTER*/
 
 .footer
