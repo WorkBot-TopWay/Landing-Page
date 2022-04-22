@@ -368,3 +368,80 @@
         display: none;
     }
 }
+
+/* HE AQUI PARA LOS PLANES DEL ESCALADOR*/ 
+
+.container-offers{
+    width: 100%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-body{
+   background-color: #424753;
+   padding: 15px;
+}
+.title-price{
+    color: white;
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.title-price-simple{
+    color: #8A94A7;
+    font-size: 1.2rem;
+}
+.title-price-simple-l{
+    color: #8A94A7;
+    font-size: 2rem;
+}
+.letter-offers{
+    color: white;
+    font-size: 0.8rem;
+}
+hr{
+    background-color: white;
+}
+.card-text{
+    color: white;
+    font-size: 1rem;
+}
+.card-text svg{
+    color: #02CBB1;
+    width: 21px;
+    height: 21px;
+    margin-right: 10px;
+}
+
+.card-text-red{
+    color: white;
+    font-size: 1rem;
+}
+.card-text-red svg{
+    color: red;
+    width: 19px;
+    height: 19px;
+    margin-right: 10px;
+}
+.button-price{
+    background-color: #168CFA;
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 15px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
