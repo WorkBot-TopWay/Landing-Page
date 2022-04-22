@@ -140,7 +140,7 @@
 .main-section
 {
     height: 800px;
-    background-image: url("../images/portada.jpg");
+    background-image: url("/images/portada.jpg");
     background-position: center;
     background-size:cover;
     display: flex;
